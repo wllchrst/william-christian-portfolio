@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      cursor:{
+        normal: 'url(black-circle.svg), auto',
+        hover: 'url(hover-circle.svg), auto'
+      }
+    },
   },
   plugins: [],
 }
