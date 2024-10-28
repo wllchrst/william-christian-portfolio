@@ -8,7 +8,7 @@ function HomePageContent() {
         <p className="font-bold text-4xl">William Christian</p>
         <p className="tracking-wider whitespace-pre-line leading-5">{text}</p>
       </div>
-      <div className="w-[300px] border-2 border-black">
+      <div className="w-[300px] ">
         <img src="../../../public/personal-image.png" className="rounded-md" />
       </div>
     </div>
