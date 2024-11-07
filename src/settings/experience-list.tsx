@@ -17,4 +17,12 @@ export const experiences: IExperience[] = [
       "I am tasked to handle and maintain multiple Application that is used\n by students in Bina Nusantara and by internal staffs in bina nusantara university",
     start: "2024 September",
   },
+  {
+    company: "Bank Central Asia",
+    position: "PPTI Teaching Assistant",
+    end: "2023 December",
+    jobDescription:
+      "I am tasked to handle and maintain multiple Application that is used\n by students in Bina Nusantara and by internal staffs in bina nusantara university",
+    start: "2023 September",
+  },
 ];
