@@ -2,16 +2,19 @@ import { IWork } from "../../interfaces/work-interface";
 import WorkImageComponent from "./work-image-component";
 
 interface Props {
-  work: IWork
+  work: IWork;
 }
 
 function WorkCard({ work }: Props) {
-  return <div className="flex flex-col">
-    <div className="flex">{work.title}</div>
-    <div className="flex">
-      <WorkImageComponent work={work}/>
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex text-2xl font-semibold">{work.title}</div>
+      <div className="flex">
+        <WorkImageComponent work={work} />
+      </div>
+      <div>{work.description}</div>
     </div>
-  </div>
+  );
 }
 
 export default WorkCard;
