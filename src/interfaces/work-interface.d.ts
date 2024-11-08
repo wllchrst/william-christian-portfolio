@@ -6,5 +6,7 @@ export interface IWork {
   mainPhoto: string;
   secondPhoto: string;
   thirdPhoto: string;
+  startTime: Date;
+  endTime: Date;
   techStacks: ITechStack[];
 }
