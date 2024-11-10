@@ -12,7 +12,9 @@ function WorkCard({ work }: Props) {
       <div className="flex">
         <WorkImageComponent work={work} />
       </div>
-      <div>{work.description}</div>
+      <div className="italic leading-5">
+        <p>{work.description}</p>
+      </div>
     </div>
   );
 }

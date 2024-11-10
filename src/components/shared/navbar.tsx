@@ -5,7 +5,7 @@ import NavbarLink from "./navbar-link";
 function Navbar() {
   const location = useLocation();
   return (
-    <div className="flex justify-center gap-6">
+    <div className="sticky bottom-0 flex justify-center gap-6">
       {pages.map((page, index) => (
         <NavbarLink key={index} page={page} currentPath={location.pathname} />
       ))}
