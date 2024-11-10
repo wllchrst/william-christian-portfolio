@@ -9,6 +9,8 @@ const workList: IWork[] = [
     secondPhoto: "/public/project-images/travelohi/2.jpg",
     thirdPhoto: "/public/project-images/travelohi/3.jpg",
     techStacks: [],
+    startTime: "July 2024",
+    endTime: "September 2024",
   },
   {
     title: "Linkasa",
@@ -18,6 +20,8 @@ const workList: IWork[] = [
     secondPhoto: "/public/project-images/travelohi/2.jpg",
     thirdPhoto: "/public/project-images/travelohi/3.jpg",
     techStacks: [],
+    startTime: "July 2024",
+    endTime: "September 2024",
   },
   {
     title: "Linkasa",
@@ -27,6 +31,8 @@ const workList: IWork[] = [
     secondPhoto: "/public/project-images/travelohi/2.jpg",
     thirdPhoto: "/public/project-images/travelohi/3.jpg",
     techStacks: [],
+    startTime: "July 2024",
+    endTime: "September 2024",
   },
   {
     title: "Linkasa",
@@ -36,7 +42,9 @@ const workList: IWork[] = [
     secondPhoto: "/public/project-images/travelohi/2.jpg",
     thirdPhoto: "/public/project-images/travelohi/3.jpg",
     techStacks: [],
+    startTime: "July 2024",
+    endTime: "September 2024",
   },
 ];
 
-export default workList
+export default workList;
