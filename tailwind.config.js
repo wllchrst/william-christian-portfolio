@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       cursor:{
-        normal: 'url(black-circle.svg), auto',
-        hover: 'url(hover-circle.svg), auto'
+        normal: 'url(/black-circle.svg), auto',
+        hover: 'url(/hover-circle.svg), auto'
       }
     },
   },
