@@ -9,7 +9,7 @@ function HomePageContent() {
         <p className="tracking-wider whitespace-pre-line leading-5">{text}</p>
       </div>
       <div className="w-[300px] ">
-        <img src="../../../public/personal-image.png" className="rounded-md" />
+        <img src="/personal-image.png" className="rounded-md" />
       </div>
     </div>
   );
