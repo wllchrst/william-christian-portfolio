@@ -4,7 +4,7 @@ const workList: IWork[] = [
   {
     title: "Skill Connect",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      "Competition I joined in Univeristy of Indonesia, to create application that is powered with Artificial Intelligence, where there is Friend and Group Recommendation, Course Recommendation and also Find Course",
     mainPhoto: "/project-images/skill-connect/1.png",
     secondPhoto: "/project-images/skill-connect/2.png",
     thirdPhoto: "/project-images/skill-connect/3.png",
@@ -15,7 +15,7 @@ const workList: IWork[] = [
   {
     title: "Travelohi",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      "Travelohi is a replication for the application Traveloka for Test Progressive Assistant, Created using Golang, React, and PostgreSQL",
     mainPhoto: "/project-images/travelohi/1.png",
     secondPhoto: "/project-images/travelohi/2.png",
     thirdPhoto: "/project-images/travelohi/3.png",
@@ -26,7 +26,7 @@ const workList: IWork[] = [
   {
     title: "Sck Men Wear",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      " SCK Men Wear is an elegant, user-friendly website designed to showcase and promote products from SCK Men Wear, a distinguished men's fashion store. The platform serves as a digital storefront to welcome customers, highlighting the quality and variety of the shop's offerings while ensuring a seamless browsing experience.",
     mainPhoto: "/project-images/sck-men-wear/1.png",
     secondPhoto: "/project-images/sck-men-wear/2.png",
     thirdPhoto: "/project-images/sck-men-wear/3.png",
@@ -37,7 +37,7 @@ const workList: IWork[] = [
   {
     title: "Linkasa",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      "Appliation to learn about System design and analyzing, where I need to create diagrams to help create the main application",
     mainPhoto: "/project-images/linkasa/1.png",
     secondPhoto: "/project-images/linkasa/2.png",
     thirdPhoto: "/project-images/linkasa/3.png",
@@ -48,7 +48,7 @@ const workList: IWork[] = [
   {
     title: "Projector",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      "Small project I created, where user can create and build new projects together.",
     mainPhoto: "/project-images/projector/1.png",
     secondPhoto: "/project-images/projector/2.png",
     thirdPhoto: "/project-images/projector/3.png",
@@ -59,7 +59,7 @@ const workList: IWork[] = [
   {
     title: "Bank Prediction",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tortor justo, vestibulum eget viverra ac, tristique sit amet urna. Nunc eget hendrerit lacus. Nam faucibus felis vitae purus eleifend, id feugiat est mollis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed suscipit hendrerit dolor vel condimentum.",
+      "Project I build to learn Machine Learning using scikit-learn and also deploying a model using FastAPI",
     mainPhoto: "/project-images/bank-prediction/1.png",
     secondPhoto: "/project-images/bank-prediction/2.png",
     thirdPhoto: "/project-images/bank-prediction/3.png",
