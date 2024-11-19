@@ -12,8 +12,12 @@ function PictureModal({ imagePath }: Props) {
   const handleCloseModal = () => setIsOpen(false);
 
   return (
-    <div className="">
-      <img src={imagePath} onClick={handleOpenModal} />
+    <div className="w-full h-full">
+      <img
+        src={imagePath}
+        onClick={handleOpenModal}
+        className="object-cover w-full h-full"
+      />
 
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 transition-all">
@@ -21,7 +25,7 @@ function PictureModal({ imagePath }: Props) {
             onClick={handleCloseModal}
             className="absolute top-3 right-3 text-gray-500 hover:text-gray-800"
           >
-            <IoMdClose className="" color="white" size={30}/>
+            <IoMdClose className="" color="white" size={30} />
           </button>
           <div className="relative bg-white rounded-lg shadow-lg max-w-5xl w-full">
             <div className="p-4">
