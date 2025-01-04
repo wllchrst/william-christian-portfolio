@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa6";
 import { IWork } from "../../interfaces/work-interface";
 import WorkImageComponent from "./work-image-component";
 import WorkTechStacks from "./work-techstacks";
@@ -11,11 +12,25 @@ function WorkCard({ work }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex gap-3 items-center">
         <div className="flex text-2xl font-semibold">{work.title}</div>
-        <WorkTechStacks work={work}/>
+        <WorkTechStacks work={work} />
       </div>
       <div className="flex">
         <WorkImageComponent work={work} />
       </div>
+      {work.githubLink != "" && (
+        <div>
+          <a
+            href={work.githubLink}
+            className="flex items-center gap-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={20} />
+            <p>Github Link</p>
+          </a>
+        </div>
+      )}
+
       <div className="italic leading-5">
         <p>{work.description}</p>
       </div>
