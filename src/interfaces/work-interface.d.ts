@@ -8,5 +8,6 @@ export interface IWork {
   thirdPhoto: string;
   startTime: string;
   endTime: string;
+  githubLink: string;
   techStacks: ITechStack[];
 }

@@ -1,11 +1,57 @@
 import { SiNestjs } from "react-icons/si";
 import { IWork } from "../interfaces/work-interface";
 import { FaReact } from "react-icons/fa";
-import { FaGolang, FaPython } from "react-icons/fa6";
+import { FaGolang, FaPython, FaRust } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IoLogoFirebase } from "react-icons/io5";
 
 const workList: IWork[] = [
+  {
+    title: "Nomen Nescio",
+    description:
+      "CodeFest Hackathon application, where we are tasked to created an application for Web3 BlockChain, My team and I created an Emailing System where the user private information is saved using blockchain and if the user wants to open their email they need verify the signature so that email is saved from other people.",
+    mainPhoto: "/project-images/nomen-nescio/1.png",
+    secondPhoto: "/project-images/nomen-nescio/2.png",
+    thirdPhoto: "/project-images/nomen-nescio/3.png",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <FaPython size={25} />
+          </>
+        ),
+        description:
+          "Python: Deep Learning, Deploying Model Made From Training",
+      },
+      {
+        icon: (
+          <>
+            <FaRust size={25} />
+          </>
+        ),
+        description: "Rust: Backend and Blockchain for the application",
+      },
+      {
+        icon: (
+          <>
+            <FaReact size={25} />
+          </>
+        ),
+        description: "React: Frontend Library For Client Side",
+      },
+      {
+        icon: (
+          <>
+            <BiLogoPostgresql size={25} />
+          </>
+        ),
+        description: "PostgreSQL: Database for the application",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/nomen-nescio",
+  },
   {
     title: "Skill Connect",
     description:
@@ -50,6 +96,7 @@ const workList: IWork[] = [
     ],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/skill-connect-compfest",
   },
   {
     title: "Travelohi",
@@ -104,6 +151,7 @@ const workList: IWork[] = [
     ],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/travelohi",
   },
   {
     title: "Sck Men Wear",
@@ -132,6 +180,7 @@ const workList: IWork[] = [
     ],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/sck-men-wear",
   },
   {
     title: "Linkasa",
@@ -143,6 +192,7 @@ const workList: IWork[] = [
     techStacks: [],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/linkasa-desktop",
   },
   {
     title: "Projector",
@@ -171,6 +221,7 @@ const workList: IWork[] = [
     ],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/project-management-app",
   },
   {
     title: "Bank Prediction",
@@ -191,6 +242,7 @@ const workList: IWork[] = [
     ],
     startTime: "July 2024",
     endTime: "September 2024",
+    githubLink: "",
   },
 ];
 
