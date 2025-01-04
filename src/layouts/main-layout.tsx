@@ -8,7 +8,7 @@ function MainLayout({ children }: IChildren) {
     <div>
       <Particles />
       <UserInformation />
-      <div className="w-screen h-screen p-5 cursor-normal transition-all z-10 relative content">
+      <div className="h-screen p-5 cursor-normal transition-all z-10 relative content">
         <Navbar />
 
         <div className="h-full">{children}</div>
