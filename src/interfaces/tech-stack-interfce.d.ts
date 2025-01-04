@@ -1,7 +1,6 @@
-import React from "react";
+import * as React from "react";
 
 export interface ITechStack {
-  icon: JSX.Element;
-  name: string;
+  icon: React.ReactNode
   description: string;
 }
