@@ -1,4 +1,4 @@
-import { SiNestjs, SiPostgresql } from "react-icons/si";
+import { SiNestjs } from "react-icons/si";
 import { IWork } from "../interfaces/work-interface";
 import { FaReact } from "react-icons/fa";
 import { FaGolang, FaPython } from "react-icons/fa6";
@@ -186,8 +186,7 @@ const workList: IWork[] = [
             <FaPython size={25} />
           </>
         ),
-        description:
-          "Python: Machine Learning library for training",
+        description: "Python: Machine Learning library for training",
       },
     ],
     startTime: "July 2024",
