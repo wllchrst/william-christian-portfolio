@@ -26,7 +26,7 @@ function WorkCard({ work }: Props) {
             rel="noopener noreferrer"
           >
             <FaGithub size={20} />
-            <p>Github Link</p>
+            {work.githubLink == "PRIVATE" ? <p>Private Repository</p> : <p>GitHub Link</p>}
           </a>
         </div>
       )}
