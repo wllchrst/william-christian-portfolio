@@ -1,11 +1,126 @@
-import { SiNestjs } from "react-icons/si";
+import { SiDotnet, SiNestjs } from "react-icons/si";
 import { IWork } from "../interfaces/work-interface";
 import { FaReact } from "react-icons/fa";
 import { FaGolang, FaPython, FaRust } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IoLogoFirebase } from "react-icons/io5";
+import { RiNextjsFill } from "react-icons/ri";
 
 const workList: IWork[] = [
+  {
+    title: "Request SLC",
+    description:
+      "Develop ticket-based application for helping on tracking requests for bug fixing and features from external divisions that uses application in SLC. Improving documentation of all requests and features",
+    mainPhoto: "/project-images/request-slc/1.png",
+    secondPhoto: "/project-images/request-slc/2.png",
+    thirdPhoto: "/project-images/request-slc/3.png",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <SiDotnet size={25} />
+          </>
+        ),
+        description:
+          ".NET: framework that support our backend developement",
+      },
+      {
+        icon: (
+          <>
+            <RiNextjsFill size={25} />
+          </>
+        ),
+        description: "Next JS: Frontend Framework For Client Side",
+      },
+      {
+        icon: (
+          <>
+            <BiLogoPostgresql size={25} />
+          </>
+        ),
+        description: "PostgreSQL: Database for the application",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "PRIVATE",
+  },
+  {
+    title: "Time Series Forecasting Ops",
+    description:
+      "Develop ticket-based application for helping on tracking requests for bug fixing and features from external divisions that uses application in SLC. Improving documentation of all requests and features",
+    mainPhoto: "/project-images/time-series/1.png",
+    secondPhoto: "/project-images/time-series/2.png",
+    thirdPhoto: "/project-images/time-series/3.png",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <SiDotnet size={25} />
+          </>
+        ),
+        description:
+          ".NET: framework that support our backend developement",
+      },
+      {
+        icon: (
+          <>
+            <RiNextjsFill size={25} />
+          </>
+        ),
+        description: "Next JS: Frontend Framework For Client Side",
+      },
+      {
+        icon: (
+          <>
+            <BiLogoPostgresql size={25} />
+          </>
+        ),
+        description: "PostgreSQL: Database for the application",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/timeseries-forecasting-ops",
+  },
+  {
+    title: "Resman SLC",
+    description:
+      "Guided and lead a group of 3 developers to create and plan an application that is used managing assistant schedules and jobs",
+    mainPhoto: "/project-images/resman/1.png",
+    secondPhoto: "/project-images/resman/2.png",
+    thirdPhoto: "/project-images/resman/3.png",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <SiDotnet size={25} />
+          </>
+        ),
+        description:
+          ".NET: framework that support our backend developement",
+      },
+      {
+        icon: (
+          <>
+            <FaReact size={25} />
+          </>
+        ),
+        description: "React: Frontend Library For Client Side",
+      },
+      {
+        icon: (
+          <>
+            <BiLogoPostgresql size={25} />
+          </>
+        ),
+        description: "PostgreSQL: Database for the application",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "PRIVATE",
+  },
   {
     title: "Nomen Nescio",
     description:
