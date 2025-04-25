@@ -1,12 +1,51 @@
-import { SiDotnet, SiNestjs } from "react-icons/si";
+import { SiDotnet, SiLangchain, SiMilvus, SiNestjs } from "react-icons/si";
 import { IWork } from "../interfaces/work-interface";
 import { FaReact } from "react-icons/fa";
 import { FaGolang, FaPython, FaRust } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IoLogoFirebase } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
+import { MdOutlineSoupKitchen } from "react-icons/md";
 
 const workList: IWork[] = [
+  {
+    title: "Learning Bot RAG",
+    description:
+      "Developed a Retrieval-Augmented Generation (RAG) chatbot capable of answering questions based on university course materials",
+    mainPhoto: "/project-images/learning-bot-rag/1.png",
+    secondPhoto: "/project-images/learning-bot-rag/2.jpg",
+    thirdPhoto: "/project-images/learning-bot-rag/3.jpg",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <SiLangchain size={25} />
+          </>
+        ),
+        description:
+          "Utilized Langchain to manage the data ingestion pipeline, including document loading, text splitting, and orchestrating the chatbot’s flow",
+      },
+      {
+        icon: (
+          <>
+            <SiMilvus size={25} />
+          </>
+        ),
+        description: "Implemented Milvus as the vector database for efficient similarity search over embedded documents.",
+      },
+      {
+        icon: (
+          <>
+            <MdOutlineSoupKitchen size={25} />
+          </>
+        ),
+        description: "Employed BeautifulSoup to scrape educational content from web pages for knowledge base enrichment",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "https://github.com/wllchrst/timeseries-forecasting-ops",
+  },
   {
     title: "Request SLC",
     description:
@@ -82,6 +121,44 @@ const workList: IWork[] = [
     startTime: "July 2024",
     endTime: "September 2024",
     githubLink: "https://github.com/wllchrst/timeseries-forecasting-ops",
+  },
+  {
+    title: "Request SLC",
+    description:
+      "Develop ticket-based application for helping on tracking requests for bug fixing and features from external divisions that uses application in SLC. Improving documentation of all requests and features",
+    mainPhoto: "/project-images/request-slc/1.png",
+    secondPhoto: "/project-images/request-slc/2.png",
+    thirdPhoto: "/project-images/request-slc/3.png",
+    techStacks: [
+      {
+        icon: (
+          <>
+            <SiDotnet size={25} />
+          </>
+        ),
+        description:
+          ".NET: framework that support our backend developement",
+      },
+      {
+        icon: (
+          <>
+            <RiNextjsFill size={25} />
+          </>
+        ),
+        description: "Next JS: Frontend Framework For Client Side",
+      },
+      {
+        icon: (
+          <>
+            <BiLogoPostgresql size={25} />
+          </>
+        ),
+        description: "PostgreSQL: Database for the application",
+      },
+    ],
+    startTime: "July 2024",
+    endTime: "September 2024",
+    githubLink: "PRIVATE",
   },
   {
     title: "Resman SLC",
