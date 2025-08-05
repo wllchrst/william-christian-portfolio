@@ -6,7 +6,7 @@ function HomePageContent() {
       <div className="flex flex-col gap-2">
         <p className="text-xl">Hi my name is</p>
         <p className="font-bold text-4xl">William Christian</p>
-        <p className="tracking-wider whitespace-pre-line leading-5">{text}</p>
+        <p className="tracking-wider whitespace-pre-line leading-5 backdrop-blur-md">{text}</p>
       </div>
       <div className="w-[300px] ">
         <img src="/personal-image.png" className="rounded-md" />

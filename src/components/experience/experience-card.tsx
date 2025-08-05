@@ -8,9 +8,9 @@ interface Props {
 function ExperienceCard({ experience }: Props) {
   return (
     <>
-      <div className="flex gap-x-3">
+      <div className="flex gap-x-3 ">
         <div className="w-72 text-end">
-          <span className="text-sm text-gray-600 font-semibold">
+          <span className="text-sm text-gray-600 font-semibold backdrop-blur-sm">
             {experience.start} - {experience.end}
           </span>
         </div>
@@ -19,12 +19,12 @@ function ExperienceCard({ experience }: Props) {
             <div className="size-2 rounded-full bg-sky-800" />
           </div>
         </div>
-        <div className="grow pt-0.5 pb-8">
+        <div className="grow pt-0.5 pb-8 backdrop-blur-sm">
           <h3 className="flex gap-x-1.5 font-semibold text-gray-800 items-center">
             <FaLocationDot />
             {experience.company}
           </h3>
-          <p className="mt-2 text-md text-gray-600 font-semibold italic">
+          <p className="mt-2 text-md text-gray-600 font-semibold italic ">
             {experience.position}
           </p>
           <p className="mt-1 text-sm whitespace-pre-line text-gray-600 ">

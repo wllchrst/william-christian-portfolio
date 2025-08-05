@@ -11,7 +11,7 @@ function WorkCard({ work }: Props) {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex gap-3 items-center">
-        <div className="flex text-2xl font-semibold">{work.title}</div>
+        <div className="flex text-2xl font-semibold backdrop-blur-md">{work.title}</div>
         <WorkTechStacks work={work} />
       </div>
       <div className="flex">
@@ -31,7 +31,7 @@ function WorkCard({ work }: Props) {
         </div>
       )}
 
-      <div className="italic leading-5">
+      <div className="leading-5 backdrop-blur-sm text-lg">
         <p>{work.description}</p>
       </div>
     </div>
